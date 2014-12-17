@@ -1,0 +1,38 @@
+{
+  "name": "node-copperegg-api",
+  "version": "0.0.1",
+  "description": "Wrapper for the CopperEgg API",
+  "author": "Denys Yahofarov <denyago@gmail.com>",
+  "contributors": [
+  ],
+  "homepage": "https://github.com/denyago/node-copperegg-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denyago/node-copperegg-api.git"
+  },
+  "engine": {
+    "node": ">=0.4.0"
+  },
+  "main": "./lib/copperegg.js",
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "request": "<2.16.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-bump": "0.0.13",
+    "grunt-docco": "^0.3.3",
+    "grunt-jasmine-node": "^0.2.1",
+    "coffee-script": "^1.7.1",
+    "grunt-jslint": "^1.1.8",
+    "rewire": "^2.0.0"
+  }
+}
