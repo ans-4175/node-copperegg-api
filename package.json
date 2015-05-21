@@ -1,27 +1,26 @@
 {
-  "name": "node-copperegg-api",
-  "version": "0.0.1",
-  "description": "Wrapper for the CopperEgg API",
+  "name": "node-copperegg-api-wrapper",
+  "version": "0.1.0",
+  "description": "Basic Wrapper for the CopperEgg API",
   "author": "Denys Yahofarov <denyago@gmail.com>",
   "contributors": [
+    "Anshorimuslim <ans4175@gmail.com>"
   ],
-  "homepage": "https://github.com/denyago/node-copperegg-api",
+  "homepage": "https://github.com/ans-4175/node-copperegg-api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/denyago/node-copperegg-api.git"
+    "url": "https://github.com/ans-4175/node-copperegg-api.git"
   },
-  "engine": {
-    "node": ">=0.4.0"
-  },
-  "main": "./lib/copperegg.js",
-  "licenses": [
-    {
-      "type": "The MIT License",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
+  "main": "index.js",
+  "licenses": [{
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }],
   "dependencies": {
-    "request": "<2.16.0"
+    "bluebird": "^2.9.24",
+    "lodash": "^3.5.0",
+    "request": "^2.53.0",
+    "sugar": "^1.4.1"
   },
   "scripts": {
     "test": "grunt test"
