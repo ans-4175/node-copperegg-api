@@ -18,7 +18,7 @@ CopperEgg REST API documentation can be found [here](http://dev.copperegg.com/)
 
   ```js
   ce = require('./lib/copperegg');
-  ceClient = new ce.CopperEggApi('https://api.copperegg.com/v2', 'user-api-token');
+  ceClient = new ce.CopperEggApi('user-api-token');
 
   ceClient.getAlerts(function(error, issues) {
     console.log(issues);
